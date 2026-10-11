@@ -200,11 +200,8 @@ meters for anyone with OpenCode Go usage in `opencode.db`, computed locally
   table changes.
 - Cost is re-priced from tokens: `opencode.db` always records a model's base
   tier, but long-context requests (GPT 6 Luna over 272K, Grok over 200K, …)
-  and DeepSeek peak hours bill higher. With that, the monthly meter matched
-  the console to the percent.
-- Windows match the console: the 5-hour block starts on first use, the week
-  starts Monday 00:00 UTC, the month is the subscription period.
-
+  and DeepSeek peak hours bill higher. 
+  
 Optional `~/.config/omarchy/agent-collectors/opencode.json`:
 
 ```json
